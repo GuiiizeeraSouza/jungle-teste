@@ -1,0 +1,8 @@
+node_modules
+.next
+public/mockServiceWorker.js
+playwright-report
+test-results
+lighthouse/reports
+e2e/__screenshots__
+package-lock.json

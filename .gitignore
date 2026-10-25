@@ -1,0 +1,16 @@
+node_modules
+.next
+out
+next-env.d.ts
+*.tsbuildinfo
+.env*.local
+.DS_Store
+
+# Playwright: artefatos de falha (traces/vídeos) são gerados por execução.
+# O relatório HTML da última execução (playwright-report/) é versionado como entregável.
+test-results
+blob-report
+playwright/.cache
+
+# Gerado pelo `next dev` (instruções para agentes de IA).
+AGENTS.md

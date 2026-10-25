@@ -1,0 +1,8 @@
+/*
+ * Aplicada só durante as capturas de regressão visual: fixa a reamostragem das
+ * imagens (o Chromium alterna entre filtros de baixa e alta qualidade ao
+ * rasterizar páginas inteiras), tornando a comparação determinística.
+ */
+img {
+  image-rendering: pixelated !important;
+}

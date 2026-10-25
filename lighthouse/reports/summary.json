@@ -1,0 +1,325 @@
+{
+  "environment": {
+    "date": "2026-10-25T01:28:07.659Z",
+    "baseUrl": "http://localhost:3100",
+    "build": "next build + next start (produção), NEXT_PUBLIC_API_MOCKING=enabled, cenário de mocks padrão",
+    "lighthouse": "13.5.0",
+    "chrome": "156.0.0.0",
+    "node": "v22.19.0",
+    "next": "16.4.3",
+    "os": "Windows_NT 10.0.26200 (x64)",
+    "cpu": "12th Gen Intel(R) Core(TM) i5-12450HX",
+    "memoryGb": 8,
+    "throttling": {
+      "mobile": "padrão Lighthouse (simulado): RTT 150 ms, 1,6 Mbps, CPU 4x",
+      "desktop": "preset desktop: RTT 40 ms, 10 Mbps, CPU 1x"
+    },
+    "app": "kurio-nft-marketplace@1.0.0"
+  },
+  "targets": {
+    "performance": 90,
+    "accessibility": 95,
+    "best-practices": 95,
+    "seo": 90
+  },
+  "summary": [
+    {
+      "profile": "mobile",
+      "page": "inicio",
+      "runs": 3,
+      "median": {
+        "performance": 60,
+        "accessibility": 96,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "LCP": 5475,
+        "CLS": 0,
+        "TBT": 855,
+        "FCP": 916
+      }
+    },
+    {
+      "profile": "mobile",
+      "page": "detalhe",
+      "runs": 3,
+      "median": {
+        "performance": 60,
+        "accessibility": 96,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "LCP": 5193,
+        "CLS": 0,
+        "TBT": 883,
+        "FCP": 911
+      }
+    },
+    {
+      "profile": "desktop",
+      "page": "inicio",
+      "runs": 3,
+      "median": {
+        "performance": 97,
+        "accessibility": 96,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "LCP": 1176,
+        "CLS": 0,
+        "TBT": 89,
+        "FCP": 264
+      }
+    },
+    {
+      "profile": "desktop",
+      "page": "detalhe",
+      "runs": 3,
+      "median": {
+        "performance": 98,
+        "accessibility": 97,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "LCP": 1177,
+        "CLS": 0,
+        "TBT": 61,
+        "FCP": 259
+      }
+    }
+  ],
+  "runs": [
+    {
+      "profile": "mobile",
+      "page": "inicio",
+      "url": "http://localhost:3100/",
+      "run": 1,
+      "scores": {
+        "performance": 51,
+        "accessibility": 96,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "LCP": 6004.664,
+        "CLS": 0,
+        "TBT": 1828,
+        "FCP": 957.0655999999999
+      },
+      "lighthouseVersion": "13.5.0"
+    },
+    {
+      "profile": "mobile",
+      "page": "inicio",
+      "url": "http://localhost:3100/",
+      "run": 2,
+      "scores": {
+        "performance": 62,
+        "accessibility": 96,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "LCP": 5474.95875,
+        "CLS": 0,
+        "TBT": 700.0000000000005,
+        "FCP": 915.9835
+      },
+      "lighthouseVersion": "13.5.0"
+    },
+    {
+      "profile": "mobile",
+      "page": "inicio",
+      "url": "http://localhost:3100/",
+      "run": 3,
+      "scores": {
+        "performance": 60,
+        "accessibility": 96,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "LCP": 5474.115250000001,
+        "CLS": 0,
+        "TBT": 854.8115250000005,
+        "FCP": 913.2461000000001
+      },
+      "lighthouseVersion": "13.5.0"
+    },
+    {
+      "profile": "mobile",
+      "page": "detalhe",
+      "url": "http://localhost:3100/nft/emerald-ape-042",
+      "run": 1,
+      "scores": {
+        "performance": 59,
+        "accessibility": 96,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "LCP": 5193.1435,
+        "CLS": 0,
+        "TBT": 911,
+        "FCP": 908.7145
+      },
+      "lighthouseVersion": "13.5.0"
+    },
+    {
+      "profile": "mobile",
+      "page": "detalhe",
+      "url": "http://localhost:3100/nft/emerald-ape-042",
+      "run": 2,
+      "scores": {
+        "performance": 60,
+        "accessibility": 96,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "LCP": 5252.2009,
+        "CLS": 0,
+        "TBT": 882.5,
+        "FCP": 911.4003
+      },
+      "lighthouseVersion": "13.5.0"
+    },
+    {
+      "profile": "mobile",
+      "page": "detalhe",
+      "url": "http://localhost:3100/nft/emerald-ape-042",
+      "run": 3,
+      "scores": {
+        "performance": 60,
+        "accessibility": 96,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "LCP": 5184.681100000001,
+        "CLS": 0,
+        "TBT": 835.5000000000005,
+        "FCP": 911.8937000000001
+      },
+      "lighthouseVersion": "13.5.0"
+    },
+    {
+      "profile": "desktop",
+      "page": "inicio",
+      "url": "http://localhost:3100/",
+      "run": 1,
+      "scores": {
+        "performance": 97,
+        "accessibility": 96,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "LCP": 1139.2614999999998,
+        "CLS": 0,
+        "TBT": 89,
+        "FCP": 253.3046
+      },
+      "lighthouseVersion": "13.5.0"
+    },
+    {
+      "profile": "desktop",
+      "page": "inicio",
+      "url": "http://localhost:3100/",
+      "run": 2,
+      "scores": {
+        "performance": 97,
+        "accessibility": 96,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "LCP": 1213.31,
+        "CLS": 0,
+        "TBT": 59.5,
+        "FCP": 274.924
+      },
+      "lighthouseVersion": "13.5.0"
+    },
+    {
+      "profile": "desktop",
+      "page": "inicio",
+      "url": "http://localhost:3100/",
+      "run": 3,
+      "scores": {
+        "performance": 97,
+        "accessibility": 96,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "LCP": 1176.1364,
+        "CLS": 0,
+        "TBT": 90,
+        "FCP": 264.2841
+      },
+      "lighthouseVersion": "13.5.0"
+    },
+    {
+      "profile": "desktop",
+      "page": "detalhe",
+      "url": "http://localhost:3100/nft/emerald-ape-042",
+      "run": 1,
+      "scores": {
+        "performance": 97,
+        "accessibility": 97,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "LCP": 1176.94875,
+        "CLS": 0,
+        "TBT": 61,
+        "FCP": 258.8425
+      },
+      "lighthouseVersion": "13.5.0"
+    },
+    {
+      "profile": "desktop",
+      "page": "detalhe",
+      "url": "http://localhost:3100/nft/emerald-ape-042",
+      "run": 2,
+      "scores": {
+        "performance": 98,
+        "accessibility": 97,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "LCP": 1189.1187499999999,
+        "CLS": 0,
+        "TBT": 56.999999999999886,
+        "FCP": 262.0475
+      },
+      "lighthouseVersion": "13.5.0"
+    },
+    {
+      "profile": "desktop",
+      "page": "detalhe",
+      "url": "http://localhost:3100/nft/emerald-ape-042",
+      "run": 3,
+      "scores": {
+        "performance": 98,
+        "accessibility": 97,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "LCP": 1143.9308,
+        "CLS": 0,
+        "TBT": 61,
+        "FCP": 255.40879999999999
+      },
+      "lighthouseVersion": "13.5.0"
+    }
+  ]
+}
